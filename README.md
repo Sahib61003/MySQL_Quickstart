@@ -6,12 +6,12 @@ Welcome to the MySQL_Quickstart repository! This repository is designed to help 
 
 This repository contains a set of SQL scripts that you can use to practice your SQL skills. These scripts cover a wide range of topics, including:
 
-` Creating and manipulating tables
-` Querying data from tables
-` Joining tables together
-` Grouping and aggregating data
-` Updating and deleting data
-` You can use these scripts to practice writing SQL queries and get a better understanding of how MySQL works.
+* Creating and manipulating tables
+* Querying data from tables
+* Joining tables together
+* Grouping and aggregating data
+* Updating and deleting data
+* You can use these scripts to practice writing SQL queries and get a better understanding of how MySQL works.
 
 ## Contributing
 
