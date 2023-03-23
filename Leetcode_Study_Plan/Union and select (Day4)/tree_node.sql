@@ -21,3 +21,11 @@ Write an SQL query to report the type of each node in the tree.
 
 Return the result table in any order.
 */
+
+SELECT id, 
+    CASE 
+        WHEN p_id IS NULL THEN 'Root'
+        WHEN id IN (SELECT DISTINCT p_id FROM Tree) THEN 'Inner'
+        ELSE 'Leaf'
+    END AS type
+FROM Tree;
